@@ -2,7 +2,7 @@
 # Authors: Andreas K. Salk & Frederik Toftegaard
 
 # Set you working directory (File path where the InputAnalyzer folder is saved)
-setwd("C:/Users/andre/Downloads/InputAnalyzer")
+setwd("C:/Users/andre/Downloads/InputAnalyzer/src")
 # This will load the bestfit program ccreated to fit distributions and a function to check for package requirements
 source("bestfit.R"); source("Install_And_Load.R")
 # The Packages needed to run the code 
