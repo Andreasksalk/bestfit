@@ -1,2 +1,4 @@
 # bestfit
-Source code to fit basic distributions in R. Provides a dashboard with best fits at monor statistical tests. Working paper proiveded.
+Source code to fit basic distributions in R. Provides a dashboard with best fits at minor statistical tests. Working paper proiveded.
+
+To be updated.
