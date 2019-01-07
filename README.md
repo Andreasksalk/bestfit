@@ -1,4 +1,2 @@
 # bestfit
-Source code to fit basic distributions in R. Provides a dashboard with best fits at minor statistical tests. Working paper proiveded.
-
-To be updated.
+bestfit is R implemented dashboard solution to generate distributions fittings for vectorirized data. The program fits a fixed set of differetn distributions to the input data sorts them with the mean square error criterion. For the 3 best solutions statistical tests are provided for the user to analyze and select the best distribution with the given input. A thourough walkthough is given in the compendium. 
