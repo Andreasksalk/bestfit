@@ -1,10 +1,13 @@
 # This code is created to fit basic distributions
 # Authors: Andreas K. Salk & Frederik Toftegaard
 
-# Set you working directory (File path where the InputAnalyzer folder is saved)
-setwd("C:/Users/andre/Downloads/InputAnalyzer/src")
+# Changing working directory to source file location
+install.packages("rstudioapi")
+library(rstudioapi)
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+
 # This will load the bestfit program ccreated to fit distributions and a function to check for package requirements
-source("bestfit.R"); source("Install_And_Load.R")
+source("src/bestfit.R"); source("src/Install_And_Load.R")
 # The Packages needed to run the code 
 Required_Packages=c("openxlsx", "fBasics", "MASS", "data.table", "triangle", "shinydashboard", "shiny");
 # Call the Function
@@ -17,4 +20,3 @@ dat <- read.xlsx("Input-R.xlsx" ,sheet = 1, colNames = TRUE)
 dat1 = dat[,2]
 
 bestfit(dat1,15)
-
